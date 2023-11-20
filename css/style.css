@@ -10,21 +10,22 @@ header{
     padding-top: 0px;
 }
 
-main{
-    margin: 10px;
+main, footer{
+    width: 1200px;
+    margin: auto;
 }
 
-footer{
-    margin: 10px;
-}
 
 #logo{
     width: 200px;
-    padding-top: 150px;
+    padding-top: 130px;
+    margin-left: 90px;
 }
 
-#pattern{
-    height: 200px;
+            /*img intestazione*/
+
+.titolo{
+    margin-bottom: 0px;
 }
 
 .link{
@@ -43,8 +44,14 @@ figure{
     padding-left: 12px;
 }
 
+            /*tabella*/
+
 table{
     width: 100%;
+}
+
+.lista{
+    padding-left: 12px;
 }
 
 .terza-riga{
@@ -59,6 +66,12 @@ thead{
 
 .celeste{
     background-color: aqua;
+}
+
+            /*img footer*/
+
+.fin-descr{
+    color: grey;
 }
 
 .fin-img{
