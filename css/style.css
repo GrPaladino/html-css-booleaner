@@ -1,14 +1,23 @@
+body{
+    margin: 0;
+}
 
+main{
+    margin: 10px;
+}
 
 header{
     height: 200px;
     background-color: lightblue;
-    background-image: image("../img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
+    padding-top: 0px;
+
 }
 
 #logo{
-    width: 100px;
+    width: 200px;
+    padding-top: 150px;
 }
 
 #pattern{
@@ -25,4 +34,26 @@ figure{
 
 .descr-foto{
     font-size: smaller;
+}
+
+.lista1{
+    padding-left: 12px;
+}
+
+table{
+    width: 100%;
+}
+
+.terza-riga{
+    width: 50%;
+}
+
+thead{
+    background-color: rgb(70, 147, 225);
+    color: white;
+
+}
+
+.celeste{
+    background-color: aqua;
 }
