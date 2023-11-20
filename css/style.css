@@ -14,3 +14,15 @@ header{
 #pattern{
     height: 200px;
 }
+
+.link{
+    text-decoration: none;
+}
+
+figure{
+    margin-left: 0;
+}
+
+.descr-foto{
+    font-size: smaller;
+}
