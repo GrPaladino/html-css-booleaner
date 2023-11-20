@@ -1,0 +1,16 @@
+
+
+header{
+    height: 200px;
+    background-color: lightblue;
+    background-image: image("../img/pattern.png");
+    background-repeat: repeat;
+}
+
+#logo{
+    width: 100px;
+}
+
+#pattern{
+    height: 200px;
+}
