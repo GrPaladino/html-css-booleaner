@@ -2,17 +2,20 @@ body{
     margin: 0;
 }
 
-main{
-    margin: 10px;
-}
-
 header{
     height: 200px;
     background-color: lightblue;
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     padding-top: 0px;
+}
 
+main{
+    margin: 10px;
+}
+
+footer{
+    margin: 10px;
 }
 
 #logo{
@@ -56,4 +59,21 @@ thead{
 
 .celeste{
     background-color: aqua;
+}
+
+.fin-img{
+    height: 200px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat
+}
+
+.fin-img1{
+    height: 200px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat
+}
+
+.descr-footer{
+    font-size: 30px;
+    color: white;
 }
